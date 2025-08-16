@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft:smoker"
+    },
+    "tags": [],
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result": {
+      "item": "smoker"
+    }
+  }
+}

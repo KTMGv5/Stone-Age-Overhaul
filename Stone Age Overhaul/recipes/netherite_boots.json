@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "minecraft:netherite_boots"
+    },
+    "tags": [],
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result": {
+      "item": "netherite_boots"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Stone Age Overhaul",
+    "description": "A primitive survival experience. Version 1.0.0",
+    "uuid": "15a01c28-f6fc-42cf-b6da-d48f289e5e81",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 19, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack for Stone Age Overhaul",
+      "type": "data",
+      "uuid": "76fce6fc-3649-46f0-bc7e-aa60fe82847f",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f1d3e2c1-a4b5-4c6d-8e7f-9a8b7c6d5e4f",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

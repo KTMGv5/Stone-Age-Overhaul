@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "stoneage:throwable_rock",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:hand_equipped": true,
+      "minecraft:icon": {
+        "texture": "cobblestone"
+      },
+      "minecraft:display_name": {
+        "value": "Throwable Rock"
+      },
+      "minecraft:cooldown": {
+        "category": "throwable_rock",
+        "duration": 1.0
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "throw"
+        }
+      }
+    },
+    "events": {
+      "throw": {
+        "shoot": {
+          "projectile": "stoneage:thrown_rock",
+          "launch_power": 1.2
+        },
+        "swing": {},
+        "decrement_stack": {}
+      }
+    }
+  }
+}

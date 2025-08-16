@@ -1,0 +1,18 @@
+ { 
+  "format_version": 2,
+  "header": {
+    "name": "Stone Age Resources",
+    "description": "Companion resource pack for the Stone Age Overhaul. Changes item names.",
+    "uuid": "f1d3e2c1-a4b5-4c6d-8e7f-9a8b7c6d5e4f",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 19, 0 ]
+  },
+  "modules": [
+    {
+      "description": "Resource module for Stone Age Overhaul",
+      "type": "resources",
+      "uuid": "a2b4c5d3-e6f7-4a9b-8c1d-2e3f4a5b6c7d",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

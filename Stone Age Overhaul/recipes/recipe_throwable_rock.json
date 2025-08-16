@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "stoneage:throwable_rock_recipe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "stoneage:throwable_rock",
+      "count": 4
+    }
+  }
+}
